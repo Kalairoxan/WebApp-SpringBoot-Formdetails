@@ -18,7 +18,7 @@ public class HomeController {
 	
 	@RequestMapping("/")
 	public String home() {
-		// System.out.println("Home method called");
+		
 		return "index";
 	}
 
@@ -36,7 +36,7 @@ public class HomeController {
 
 	@RequestMapping("addAlien")
 	public String addAlien(Alien alien) {
-	//public String addAlien(@ModelAttribute("alien1") Alien alien) {
+	
        
 		return "result";
 	}
